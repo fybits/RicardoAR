@@ -1,0 +1,2253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Schedule
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 103.733, y: -123.509995, z: -93.159}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 67.344, y: -5.1330004, z: 86.818}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -62.887005, y: 225.342, z: -243.20999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -13.576, y: 0.026, z: 44.446003}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -7.8880005, y: 7.6580005, z: 44.839}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -2.157, y: 12.6380005, z: 43.758003}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 6.42, y: 19.672, z: 41.936}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -11.787001, y: 20.812, z: 76.414}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -18.199001, y: 27.284, z: 80.951004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -16.582, y: 58.578003, z: 68.310005}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -3.798, y: 16.582, z: 87.813}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -5.414, y: 12.160001, z: 73.39101}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11/ValveBiped.Bip01_R_Finger12
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -9.331, y: 15.574, z: 69.944}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21/ValveBiped.Bip01_R_Finger22
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -9.251, y: 21.413, z: 80.186005}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31/ValveBiped.Bip01_R_Finger32
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -8.7560005, y: 47.27, z: 49.937004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41/ValveBiped.Bip01_R_Finger42
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 98.36499, y: -103.84299, z: -64.36798}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -38.800003, y: -98.464005, z: 121.47401}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 22.245, y: -62.281002, z: -6.1050005}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -100.226, y: 129.34799, z: -22.505981}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 98.656006, y: 15.895996, z: 16.788986}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm/ValveBiped.Bip01_L_Hand
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 3992893616
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2729173869
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3886974256
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3575835914
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1277934768
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 992775206
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2772965765
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1194486774
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1026458515
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2148080873
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3373749081
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1094684719
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 122458200
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 983404661
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2343211190
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2720390556
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1301938398
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3347224256
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1746460570
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 46124449
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 103.733
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -123.509995
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -93.159
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 67.344
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -5.1330004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 86.818
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -62.887005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 225.342
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -243.20999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -13.576
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.026
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 44.446003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -7.8880005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 7.6580005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 44.839
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -2.157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 12.6380005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 43.758003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 6.42
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 19.672
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 41.936
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -11.787001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 20.812
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 76.414
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -18.199001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 27.284
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 80.951004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -16.582
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 58.578003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 68.310005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -3.798
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 16.582
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 87.813
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -5.414
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11/ValveBiped.Bip01_R_Finger12
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 12.160001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11/ValveBiped.Bip01_R_Finger12
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 73.39101
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11/ValveBiped.Bip01_R_Finger12
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -9.331
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21/ValveBiped.Bip01_R_Finger22
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 15.574
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21/ValveBiped.Bip01_R_Finger22
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 69.944
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21/ValveBiped.Bip01_R_Finger22
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -9.251
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31/ValveBiped.Bip01_R_Finger32
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 21.413
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31/ValveBiped.Bip01_R_Finger32
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 80.186005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31/ValveBiped.Bip01_R_Finger32
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -8.7560005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41/ValveBiped.Bip01_R_Finger42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 47.27
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41/ValveBiped.Bip01_R_Finger42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 49.937004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41/ValveBiped.Bip01_R_Finger42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 98.36499
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -103.84299
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -64.36798
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -38.800003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -98.464005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 121.47401
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 22.245
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -62.281002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -6.1050005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -100.226
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 129.34799
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -22.505981
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 98.656006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm/ValveBiped.Bip01_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 15.895996
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm/ValveBiped.Bip01_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 16.788986
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm/ValveBiped.Bip01_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11/ValveBiped.Bip01_R_Finger12
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11/ValveBiped.Bip01_R_Finger12
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger1/ValveBiped.Bip01_R_Finger11/ValveBiped.Bip01_R_Finger12
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21/ValveBiped.Bip01_R_Finger22
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21/ValveBiped.Bip01_R_Finger22
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger2/ValveBiped.Bip01_R_Finger21/ValveBiped.Bip01_R_Finger22
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31/ValveBiped.Bip01_R_Finger32
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31/ValveBiped.Bip01_R_Finger32
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger3/ValveBiped.Bip01_R_Finger31/ValveBiped.Bip01_R_Finger32
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41/ValveBiped.Bip01_R_Finger42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41/ValveBiped.Bip01_R_Finger42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger4/ValveBiped.Bip01_R_Finger41/ValveBiped.Bip01_R_Finger42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_R_Clavicle/ValveBiped.Bip01_R_UpperArm/ValveBiped.Bip01_R_Forearm/ValveBiped.Bip01_R_Hand/ValveBiped.Bip01_R_Finger0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm/ValveBiped.Bip01_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm/ValveBiped.Bip01_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: ricardo_skeleton/ValveBiped.Bip01_Pelvis/ValveBiped.Bip01_Spine/ValveBiped.Bip01_Spine1/ValveBiped.Bip01_Spine2/ValveBiped.Bip01_Spine4/ValveBiped.Bip01_L_Clavicle/ValveBiped.Bip01_L_UpperArm/ValveBiped.Bip01_L_Forearm/ValveBiped.Bip01_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []

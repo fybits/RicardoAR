@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 8df72a9925341224fb8242a7bf893e02
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: pants
+    100006: Point
+    100008: ricardo
+    100010: ricardo_skeleton
+    100012: shirt
+    100014: Sun
+    100016: Sun.001
+    100018: ValveBiped.Anim_Attachment_LH
+    100020: ValveBiped.Anim_Attachment_LH_end
+    100022: ValveBiped.Anim_Attachment_RH
+    100024: ValveBiped.Anim_Attachment_RH_end
+    100026: ValveBiped.Bip01_Head1
+    100028: ValveBiped.Bip01_jiggle_bone
+    100030: ValveBiped.Bip01_jiggle_bone_end
+    100032: ValveBiped.Bip01_L_Calf
+    100034: ValveBiped.Bip01_L_Clavicle
+    100036: ValveBiped.Bip01_L_Finger0
+    100038: ValveBiped.Bip01_L_Finger01
+    100040: ValveBiped.Bip01_L_Finger02
+    100042: ValveBiped.Bip01_L_Finger02_end
+    100044: ValveBiped.Bip01_L_Finger1
+    100046: ValveBiped.Bip01_L_Finger11
+    100048: ValveBiped.Bip01_L_Finger12
+    100050: ValveBiped.Bip01_L_Finger12_end
+    100052: ValveBiped.Bip01_L_Finger2
+    100054: ValveBiped.Bip01_L_Finger21
+    100056: ValveBiped.Bip01_L_Finger22
+    100058: ValveBiped.Bip01_L_Finger22_end
+    100060: ValveBiped.Bip01_L_Finger3
+    100062: ValveBiped.Bip01_L_Finger31
+    100064: ValveBiped.Bip01_L_Finger32
+    100066: ValveBiped.Bip01_L_Finger32_end
+    100068: ValveBiped.Bip01_L_Finger4
+    100070: ValveBiped.Bip01_L_Finger41
+    100072: ValveBiped.Bip01_L_Finger42
+    100074: ValveBiped.Bip01_L_Finger42_end
+    100076: ValveBiped.Bip01_L_Foot
+    100078: ValveBiped.Bip01_L_Foot_end
+    100080: ValveBiped.Bip01_L_Forearm
+    100082: ValveBiped.Bip01_L_Hand
+    100084: ValveBiped.Bip01_L_Thigh
+    100086: ValveBiped.Bip01_L_UpperArm
+    100088: ValveBiped.Bip01_Neck1
+    100090: ValveBiped.Bip01_Pelvis
+    100092: ValveBiped.Bip01_R_Calf
+    100094: ValveBiped.Bip01_R_Clavicle
+    100096: ValveBiped.Bip01_R_Finger0
+    100098: ValveBiped.Bip01_R_Finger01
+    100100: ValveBiped.Bip01_R_Finger02
+    100102: ValveBiped.Bip01_R_Finger02_end
+    100104: ValveBiped.Bip01_R_Finger1
+    100106: ValveBiped.Bip01_R_Finger11
+    100108: ValveBiped.Bip01_R_Finger12
+    100110: ValveBiped.Bip01_R_Finger12_end
+    100112: ValveBiped.Bip01_R_Finger2
+    100114: ValveBiped.Bip01_R_Finger21
+    100116: ValveBiped.Bip01_R_Finger22
+    100118: ValveBiped.Bip01_R_Finger22_end
+    100120: ValveBiped.Bip01_R_Finger3
+    100122: ValveBiped.Bip01_R_Finger31
+    100124: ValveBiped.Bip01_R_Finger32
+    100126: ValveBiped.Bip01_R_Finger32_end
+    100128: ValveBiped.Bip01_R_Finger4
+    100130: ValveBiped.Bip01_R_Finger41
+    100132: ValveBiped.Bip01_R_Finger42
+    100134: ValveBiped.Bip01_R_Finger42_end
+    100136: ValveBiped.Bip01_R_Foot
+    100138: ValveBiped.Bip01_R_Foot_end
+    100140: ValveBiped.Bip01_R_Forearm
+    100142: ValveBiped.Bip01_R_Hand
+    100144: ValveBiped.Bip01_R_Thigh
+    100146: ValveBiped.Bip01_R_UpperArm
+    100148: ValveBiped.Bip01_Spine
+    100150: ValveBiped.Bip01_Spine1
+    100152: ValveBiped.Bip01_Spine2
+    100154: ValveBiped.Bip01_Spine4
+    100156: ValveBiped.forward
+    100158: ValveBiped.forward_end
+    400000: Camera
+    400002: //RootNode
+    400004: pants
+    400006: Point
+    400008: ricardo
+    400010: ricardo_skeleton
+    400012: shirt
+    400014: Sun
+    400016: Sun.001
+    400018: ValveBiped.Anim_Attachment_LH
+    400020: ValveBiped.Anim_Attachment_LH_end
+    400022: ValveBiped.Anim_Attachment_RH
+    400024: ValveBiped.Anim_Attachment_RH_end
+    400026: ValveBiped.Bip01_Head1
+    400028: ValveBiped.Bip01_jiggle_bone
+    400030: ValveBiped.Bip01_jiggle_bone_end
+    400032: ValveBiped.Bip01_L_Calf
+    400034: ValveBiped.Bip01_L_Clavicle
+    400036: ValveBiped.Bip01_L_Finger0
+    400038: ValveBiped.Bip01_L_Finger01
+    400040: ValveBiped.Bip01_L_Finger02
+    400042: ValveBiped.Bip01_L_Finger02_end
+    400044: ValveBiped.Bip01_L_Finger1
+    400046: ValveBiped.Bip01_L_Finger11
+    400048: ValveBiped.Bip01_L_Finger12
+    400050: ValveBiped.Bip01_L_Finger12_end
+    400052: ValveBiped.Bip01_L_Finger2
+    400054: ValveBiped.Bip01_L_Finger21
+    400056: ValveBiped.Bip01_L_Finger22
+    400058: ValveBiped.Bip01_L_Finger22_end
+    400060: ValveBiped.Bip01_L_Finger3
+    400062: ValveBiped.Bip01_L_Finger31
+    400064: ValveBiped.Bip01_L_Finger32
+    400066: ValveBiped.Bip01_L_Finger32_end
+    400068: ValveBiped.Bip01_L_Finger4
+    400070: ValveBiped.Bip01_L_Finger41
+    400072: ValveBiped.Bip01_L_Finger42
+    400074: ValveBiped.Bip01_L_Finger42_end
+    400076: ValveBiped.Bip01_L_Foot
+    400078: ValveBiped.Bip01_L_Foot_end
+    400080: ValveBiped.Bip01_L_Forearm
+    400082: ValveBiped.Bip01_L_Hand
+    400084: ValveBiped.Bip01_L_Thigh
+    400086: ValveBiped.Bip01_L_UpperArm
+    400088: ValveBiped.Bip01_Neck1
+    400090: ValveBiped.Bip01_Pelvis
+    400092: ValveBiped.Bip01_R_Calf
+    400094: ValveBiped.Bip01_R_Clavicle
+    400096: ValveBiped.Bip01_R_Finger0
+    400098: ValveBiped.Bip01_R_Finger01
+    400100: ValveBiped.Bip01_R_Finger02
+    400102: ValveBiped.Bip01_R_Finger02_end
+    400104: ValveBiped.Bip01_R_Finger1
+    400106: ValveBiped.Bip01_R_Finger11
+    400108: ValveBiped.Bip01_R_Finger12
+    400110: ValveBiped.Bip01_R_Finger12_end
+    400112: ValveBiped.Bip01_R_Finger2
+    400114: ValveBiped.Bip01_R_Finger21
+    400116: ValveBiped.Bip01_R_Finger22
+    400118: ValveBiped.Bip01_R_Finger22_end
+    400120: ValveBiped.Bip01_R_Finger3
+    400122: ValveBiped.Bip01_R_Finger31
+    400124: ValveBiped.Bip01_R_Finger32
+    400126: ValveBiped.Bip01_R_Finger32_end
+    400128: ValveBiped.Bip01_R_Finger4
+    400130: ValveBiped.Bip01_R_Finger41
+    400132: ValveBiped.Bip01_R_Finger42
+    400134: ValveBiped.Bip01_R_Finger42_end
+    400136: ValveBiped.Bip01_R_Foot
+    400138: ValveBiped.Bip01_R_Foot_end
+    400140: ValveBiped.Bip01_R_Forearm
+    400142: ValveBiped.Bip01_R_Hand
+    400144: ValveBiped.Bip01_R_Thigh
+    400146: ValveBiped.Bip01_R_UpperArm
+    400148: ValveBiped.Bip01_Spine
+    400150: ValveBiped.Bip01_Spine1
+    400152: ValveBiped.Bip01_Spine2
+    400154: ValveBiped.Bip01_Spine4
+    400156: ValveBiped.forward
+    400158: ValveBiped.forward_end
+    2000000: Camera
+    2100000: Material.003
+    2100002: Material.002
+    2100004: eyeball_r
+    2100006: eyeball_l
+    2100008: mouth
+    2100010: ricardo
+    2100012: body
+    2100014: skin1
+    2100016: genericmouth_colspec
+    4300000: pants
+    4300002: shirt
+    4300004: ricardo
+    9500000: //RootNode
+    10800000: Point
+    10800002: Sun
+    10800004: Sun.001
+    13700000: pants
+    13700002: ricardo
+    13700004: shirt
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 542c959ebecc59248b67c725ae2baca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 4ab5792a9fce29b47bbeb3a9ac038c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: f7758e6a4eeac0d4c872732e05d457e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyeball_l
+    second: {fileID: 2100000, guid: f94519099a395864485a9bf1fe4d5eae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyeball_r
+    second: {fileID: 2100000, guid: a53bc78389ca9fc49ae608169b94554e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: genericmouth_colspec
+    second: {fileID: 2100000, guid: d158861212e5a82499857e42f8ab56db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mouth
+    second: {fileID: 2100000, guid: e7aac3b8e6b044d49b216e20f1544707, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ricardo
+    second: {fileID: 2100000, guid: a6a5ad1cd24cf0844af51b57d2f4b6e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin1
+    second: {fileID: 2100000, guid: c6f2600be24746a4e9dc394d587eeaf5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.025
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.00025
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
