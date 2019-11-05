@@ -9,6 +9,7 @@ public class ModeSwitcher : MonoBehaviour
     public GameObject[] options;            // GameObject array with all options
     
     private int m_selectedOption = 0;
+    public int lastMode;
     public bool opened = false;
 
     // Calls when one of the ModeSwitcher buttons pressed
@@ -34,7 +35,7 @@ public class ModeSwitcher : MonoBehaviour
         GameObject tempGO = options[m_selectedOption];
         options[m_selectedOption] = options[option];
         options[option] = tempGO;
-
+        lastMode = m_selectedOption;
         m_selectedOption = option;
         AppManager.singleton.SetState(m_selectedOption);
     }

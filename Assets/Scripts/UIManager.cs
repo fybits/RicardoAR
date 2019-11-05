@@ -10,17 +10,22 @@ public class UIManager : MonoBehaviour {
     public GameObject infoWindow;
     public GameObject scheduleWindow;
     public GameObject notesWindow;
+    public GameObject exercisesWindow;
     public GameObject btnHolder;
     public GameObject btnBack;
     public GameObject btnInfo;
     public GameObject tip;
+
+    public ModeSwitcher modeSwitcher;
+
+    public GameObject characterSelectorWindow;
 
     public GameObject planeFinder;      // Reference to GameObject with PlaneFinder script
 
     public List<string> showedTips = new List<string>();
 
     // State(Time) machine stuff        // Rick and Morty reference
-    public enum WindowState { DEFAULT, ACCOUNT, INFO, SCHEDULE, NOTES };
+    public enum WindowState { DEFAULT, ACCOUNT, INFO, SCHEDULE, NOTES, EXERCISES };
     WindowState state = WindowState.DEFAULT;
     bool stateChanged = true;
     private bool isTipVisible = false;
@@ -34,11 +39,12 @@ public class UIManager : MonoBehaviour {
         if (stateChanged) {
             switch (state) {
                 case WindowState.DEFAULT:
-                    ShowTip("Ты отчислен. ☺");
+                    ShowTip("Добро пожаловать.");
                     accountWindow.SetActive(false);
                     infoWindow.SetActive(false);
                     scheduleWindow.SetActive(false);
                     notesWindow.SetActive(false);
+                    exercisesWindow.SetActive(false);
                     btnHolder.SetActive(true);
                     btnBack.SetActive(false);
                     btnInfo.SetActive(false);
@@ -50,6 +56,7 @@ public class UIManager : MonoBehaviour {
                     infoWindow.SetActive(false);
                     scheduleWindow.SetActive(false);
                     notesWindow.SetActive(false);
+                    exercisesWindow.SetActive(false);
                     btnHolder.SetActive(false);
                     btnBack.SetActive(true);
                     btnInfo.SetActive(true);
@@ -61,6 +68,7 @@ public class UIManager : MonoBehaviour {
                     scheduleWindow.SetActive(false);
                     infoWindow.SetActive(true);
                     notesWindow.SetActive(false);
+                    exercisesWindow.SetActive(false);
                     btnInfo.SetActive(false);
                     planeFinder.SetActive(false);
                     break;
@@ -70,6 +78,7 @@ public class UIManager : MonoBehaviour {
                     infoWindow.SetActive(false);
                     scheduleWindow.SetActive(true);
                     notesWindow.SetActive(false);
+                    exercisesWindow.SetActive(false);
                     btnHolder.SetActive(false);
                     btnBack.SetActive(true);
                     btnInfo.SetActive(false);
@@ -82,6 +91,19 @@ public class UIManager : MonoBehaviour {
                     infoWindow.SetActive(false);
                     scheduleWindow.SetActive(false);
                     notesWindow.SetActive(true);
+                    exercisesWindow.SetActive(false);
+                    btnHolder.SetActive(false);
+                    btnBack.SetActive(true);
+                    btnInfo.SetActive(false);
+                    planeFinder.SetActive(false);
+                    break;
+                case WindowState.EXERCISES:
+                    ShowTip("Упражняйся со своим ассистентом.");
+                    accountWindow.SetActive(false);
+                    infoWindow.SetActive(false);
+                    scheduleWindow.SetActive(false);
+                    notesWindow.SetActive(false);
+                    exercisesWindow.SetActive(true);
                     btnHolder.SetActive(false);
                     btnBack.SetActive(true);
                     btnInfo.SetActive(false);
@@ -108,6 +130,10 @@ public class UIManager : MonoBehaviour {
                 state = WindowState.DEFAULT;
                 AppManager.singleton.SaveNotes();
                 break;
+            case WindowState.EXERCISES:
+                state = WindowState.DEFAULT;
+                modeSwitcher.SelectOption(modeSwitcher.lastMode);
+                break;
         }
         stateChanged = true;
     }
@@ -120,6 +146,28 @@ public class UIManager : MonoBehaviour {
     // Calls when dropdown value changes
     public void OnGroupChanged(Dropdown dropDown) {
         AppManager.singleton.SetGroup(dropDown.value);
+    }
+
+    public void OnModelChanged(Dropdown dropDown) {
+        //AppManager.singleton.isShronk = dropDown.value == 1;
+    }
+
+    public void OpenSelectMenu() {
+        characterSelectorWindow.SetActive(true);
+    }
+
+    public void CloseSelectMenu() {
+        characterSelectorWindow.SetActive(false);
+    }
+
+    public void SelectExercise(int exer) {
+        exercisesWindow.SetActive(false);
+        AppManager.singleton.SetExercisesState(exer);
+    }
+
+
+    public void ClearTips() {
+        showedTips.Clear();
     }
 
     public void ShowTip(string message) {

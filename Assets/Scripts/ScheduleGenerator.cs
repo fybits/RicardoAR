@@ -32,15 +32,7 @@ public class ScheduleGenerator : MonoBehaviour
         int i = (day == -1) ? ((int)now.DayOfWeek+1) : day+2;
         if (i == 0)
             i = 2;
-        //for (int i = 0; i < table.Count; i++) {
         JArray array = (JArray)table[i];
-        //GameObject row = new GameObject("row" + i);
-        //row.transform.parent = gridHandle.transform;
-        //RectTransform rt = row.AddComponent<RectTransform>();
-        //rt.pivot = new Vector2(0, 1);
-        //rt.sizeDelta = new Vector2(Screen.width, rt.sizeDelta.y);W
-        //row.transform.localScale = Vector3.one;
-        //row.AddComponent<HorizontalLayoutGroup>();
         GameObject header = new GameObject("Schedule header");
         header.transform.parent = schedulePlane.transform;
         TMPro.TextMeshProUGUI headerText = header.AddComponent<TMPro.TextMeshProUGUI>();

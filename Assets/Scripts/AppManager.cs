@@ -7,24 +7,19 @@ using UnityEngine.UI;
 public class AppManager : MonoBehaviour
 {
     public static AppManager singleton;
-    public enum RicardoState {FLEX, SCHEDULE, PUSHUP, NOTES};  // State machine states
+    public enum RicardoState {FLEX, SCHEDULE, EXERCISES, NOTES};  // State machine states
+    public enum ExercisesState {PUSHUPS, SQUATS, CAPOEIRA};
+
     public RicardoState state = RicardoState.FLEX;      // State machine state
     bool stateChanged = true;                           // State machine flag
-    public Animator ricardoAnimator;                    // Animator component of Ricardo GameObject
-    public Renderer ricardoSchedule;                    // Ricardo Schedule Renderer reference
-    public GameObject ricardoNotes;
-
-    public ScheduleGenerator[] ricardoScheduleGenerator;
-    public ScheduleGenerator scheduleGen;
-    public Image schedule;                              // Schedule Renderer reference
-
-    public Texture2D[] scheduleTextures = new Texture2D[4]; // Array that holds schedules textures
-
-    public TMPro.TMP_InputField notes;
-    public TMPro.TextMeshProUGUI notesRicardo;
 
     public Text debugText;              // UI Text for debug info on a screen
     public Dropdown groupDropdown;
+
+    private CharacterManager characters;
+
+    public ScheduleGenerator scheduleGen;
+    public TMPro.TMP_InputField notes;
 
     private int group = 0;              // Holds current group
 
@@ -37,7 +32,10 @@ public class AppManager : MonoBehaviour
     }
 
     private void Start() {
+        Debug.Log(Application.persistentDataPath);
         //LoadSchedulesTextures(true);
+        characters = GetComponent<CharacterManager>();
+        characters.SelectCharacter(0);
         SetGroup(group);            // Sets group to default 0 (КТбо1-1)
         LoadConfig();
         LoadNotes();
@@ -51,18 +49,25 @@ public class AppManager : MonoBehaviour
         }
         // Default state machine routine
         if (stateChanged) {
-            ricardoAnimator.SetInteger("State",(int)state);         // Sets animator's variable "State" to the new state
-            if (state == RicardoState.SCHEDULE) {                   // If new state is Schedule
-                ricardoNotes.SetActive(false);
-                ricardoSchedule.gameObject.SetActive(true);         // Enables schedule gameobject on the scene
-                for (int i = 0; i < 4; i++)
-                    ricardoScheduleGenerator[i].Generate(NetworkManager.DownloadSchedule("" + mapping[group]), i);
-            } else if (state == RicardoState.NOTES) {
-                ricardoNotes.SetActive(true);
-                ricardoSchedule.gameObject.SetActive(false);
+            CharacterManager.CharacterData curCharacter = characters.GetCurrentCharacter();
+              curCharacter.characterAnimator.SetInteger("State", (int)state);         // Sets animator's variable "State" to the new state
+            if (state == RicardoState.EXERCISES) {
+                UIManager.singleton.ChangeState((int)UIManager.WindowState.EXERCISES);
+                curCharacter.schedule.SetActive(false);
+                curCharacter.notes.SetActive(false);
             } else {
-                ricardoSchedule.gameObject.SetActive(false);        // Disables if it's not
-                ricardoNotes.SetActive(false);
+                if (state == RicardoState.SCHEDULE) {                   // If new state is Schedule
+                    curCharacter.notes.SetActive(false);
+                    curCharacter.schedule.SetActive(true);
+                    for (int i = 0; i < 4; i++)
+                        curCharacter.scheduleGenerators[i].Generate(NetworkManager.DownloadSchedule("" + mapping[group]), i);
+                } else if (state == RicardoState.NOTES) {
+                    curCharacter.notes.SetActive(true);
+                    curCharacter.schedule.SetActive(false);
+                } else {
+                    curCharacter.schedule.SetActive(false);
+                    curCharacter.notes.SetActive(false);
+                }
             }
             stateChanged = false;
         }
@@ -70,20 +75,31 @@ public class AppManager : MonoBehaviour
 
     // The function that calls from outside of the script by the UI
     public void SetState(int newState) {
-        if (state == (RicardoState)newState) return;        // If state didn't changed return
+        //if (state == (RicardoState)newState) return;        // If state didn't changed return
         state = (RicardoState)newState;
         stateChanged = true;
         Debug.Log(state.ToString());
+    }
+
+    public void SetExercisesState(int exer) {
+        characters.GetCurrentCharacter().characterAnimator.SetInteger("Exercise", exer);
+        Debug.Log("Exer: " + exer);
     }
 
     public void RefreshSchedule() {
         scheduleGen.Generate(NetworkManager.DownloadSchedule(""+mapping[group]));
     }
 
+    public void SetCharacter(int i) {
+        characters.SelectCharacter(i);
+        SetState((int)state);
+    }
+
+
     public void LoadConfig() {
         Debug.LogError(Application.persistentDataPath);
         if (!File.Exists(Path.Combine(Application.persistentDataPath, "config.cfg"))) {
-            
+            UIManager.singleton.OpenSelectMenu();
             Debug.Log("Config file not found");
             return;
         }
@@ -92,14 +108,16 @@ public class AppManager : MonoBehaviour
         groupDropdown.value = int.Parse(data[0]);
         groupDropdown.RefreshShownValue();
         SetGroup(int.Parse(data[0]));
-        for (int i = 1; i < data.Length-1; i++) {
+        SetCharacter(int.Parse(data[1]));
+        for (int i = 2; i < data.Length-1; i++) {
             UIManager.singleton.showedTips.Add(data[i]);
         }
         Debug.Log("Config loaded");
     }
 
+
     private void OnApplicationQuit() {
-        string config = group + "\n";
+        string config = group + "\n" + characters.currentCharacter+"\n";
         for (int i = 0; i < UIManager.singleton.showedTips.Count; i++) {
             config += UIManager.singleton.showedTips[i] + "\n";
         }
@@ -113,41 +131,16 @@ public class AppManager : MonoBehaviour
         }
         string data = File.ReadAllText(Path.Combine(Application.persistentDataPath, "note.txt"));
         notes.text = data;
-        notesRicardo.text = data;
+        characters.GetCurrentCharacter().notesText.text = data;
         Debug.Log("Notes loaded");
     }
 
     public void SaveNotes() {
         File.WriteAllText(Path.Combine(Application.persistentDataPath, "note.txt"), notes.text);
+        characters.GetCurrentCharacter().notesText.text = notes.text;
         Debug.Log("Notes saved");
     }
 
-
-    public void LoadSchedulesTextures(bool force) {
-        for (int i = 0; i < 4; i++) {
-            byte[] fileData;
-            string groupName = "1-"+((i != 0) ? (i + 5) : 1);
-            string filePath = groupName+".png";
-            if (!File.Exists(Path.Combine(Path.Combine(Application.persistentDataPath, "schedule/"),filePath)) || force) {
-                Debug.Log("File not found. Downloading..");
-                debugText.text += "File not found.Downloading..\n";
-                // Downloading new schedule file if it isn't exist
-                // Also must load new schedules if old isn't up to date
-                // NetworkManager.DownloadSchedule(groupName);
-            }
-            // Read of file data to the byte array
-            fileData = File.ReadAllBytes(Path.Combine(Path.Combine(Application.persistentDataPath, "schedule/"), filePath));
-            // Creating new texture from those bytes
-            scheduleTextures[i] = new Texture2D(1, 1);
-            scheduleTextures[i].LoadImage(fileData);
-            scheduleTextures[i].Apply();
-            // Updating current texture
-            Rect r = new Rect(0, 0, scheduleTextures[group].width, scheduleTextures[group].height);
-            schedule.sprite = Sprite.Create(scheduleTextures[group],r,Vector2.one/2);
-            ricardoSchedule.material.mainTexture = scheduleTextures[group];
-        }
-        debugText.text = "";
-    }
 
     public void RotateToCamera(GameObject go) {
         // This shit works wrong.
@@ -160,8 +153,5 @@ public class AppManager : MonoBehaviour
     // The function that calls from outside of the script by the UI
     public void SetGroup(int groupID) {
         group = groupID;
-        //ricardoSchedule.material.mainTexture = scheduleTextures[group];
-        //Rect r = new Rect(0, 0, scheduleTextures[group].width, scheduleTextures[group].height);
-        //schedule.sprite = Sprite.Create(scheduleTextures[group], r, Vector2.one / 2);
     }
 }

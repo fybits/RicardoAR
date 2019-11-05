@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: b5c46b44c2207dc4ab21d6de715579bb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature.002
+    100002: ba.L
+    100004: ba.R
+    100006: bb.L
+    100008: bb.R
+    100010: bc.L
+    100012: bc.L_end
+    100014: bc.R
+    100016: bc.R_end
+    100018: BODY
+    100020: Chest
+    100022: f1a.L
+    100024: f1a.R
+    100026: f1b.L
+    100028: f1b.R
+    100030: f1c.L
+    100032: f1c.L_end
+    100034: f1c.R
+    100036: f1c.R_end
+    100038: f2a.L
+    100040: f2a.R
+    100042: f2b.L
+    100044: f2b.L.001
+    100046: f2b.R
+    100048: f2b.R.001
+    100050: f2c.L
+    100052: f2c.L.001
+    100054: f2c.L.001_end
+    100056: f2c.L_end
+    100058: f2c.R
+    100060: f2c.R.001
+    100062: f2c.R.001_end
+    100064: f2c.R_end
+    100066: f3a.L
+    100068: f3a.R
+    100070: f4a.L
+    100072: f4a.R
+    100074: f4b.L
+    100076: f4b.R
+    100078: f4c.L
+    100080: f4c.L_end
+    100082: f4c.R
+    100084: f4c.R_end
+    100086: Foot.L
+    100088: Foot.L_end
+    100090: Foot.R
+    100092: Foot.R_end
+    100094: Hand.L
+    100096: Hand.R
+    100098: Head
+    100100: Head_end
+    100102: Hips
+    100104: LowerArm.L
+    100106: LowerArm.R
+    100108: LowerLeg.L
+    100110: LowerLeg.R
+    100112: LowerSpine
+    100114: Neck
+    100116: pants
+    100118: right eye
+    100120: right eye.001
+    100122: right pupil
+    100124: right pupil.002
+    100126: shirt
+    100128: shoes
+    100130: Sholder.L
+    100132: Sholder.R
+    100134: SholderConnector.L
+    100136: SholderConnector.R
+    100138: //RootNode
+    100140: UpperArm.L
+    100142: UpperArm.R
+    100144: UpperLeg.L
+    100146: UpperLeg.R
+    400000: Armature.002
+    400002: ba.L
+    400004: ba.R
+    400006: bb.L
+    400008: bb.R
+    400010: bc.L
+    400012: bc.L_end
+    400014: bc.R
+    400016: bc.R_end
+    400018: BODY
+    400020: Chest
+    400022: f1a.L
+    400024: f1a.R
+    400026: f1b.L
+    400028: f1b.R
+    400030: f1c.L
+    400032: f1c.L_end
+    400034: f1c.R
+    400036: f1c.R_end
+    400038: f2a.L
+    400040: f2a.R
+    400042: f2b.L
+    400044: f2b.L.001
+    400046: f2b.R
+    400048: f2b.R.001
+    400050: f2c.L
+    400052: f2c.L.001
+    400054: f2c.L.001_end
+    400056: f2c.L_end
+    400058: f2c.R
+    400060: f2c.R.001
+    400062: f2c.R.001_end
+    400064: f2c.R_end
+    400066: f3a.L
+    400068: f3a.R
+    400070: f4a.L
+    400072: f4a.R
+    400074: f4b.L
+    400076: f4b.R
+    400078: f4c.L
+    400080: f4c.L_end
+    400082: f4c.R
+    400084: f4c.R_end
+    400086: Foot.L
+    400088: Foot.L_end
+    400090: Foot.R
+    400092: Foot.R_end
+    400094: Hand.L
+    400096: Hand.R
+    400098: Head
+    400100: Head_end
+    400102: Hips
+    400104: LowerArm.L
+    400106: LowerArm.R
+    400108: LowerLeg.L
+    400110: LowerLeg.R
+    400112: LowerSpine
+    400114: Neck
+    400116: pants
+    400118: right eye
+    400120: right eye.001
+    400122: right pupil
+    400124: right pupil.002
+    400126: shirt
+    400128: shoes
+    400130: Sholder.L
+    400132: Sholder.R
+    400134: SholderConnector.L
+    400136: SholderConnector.R
+    400138: //RootNode
+    400140: UpperArm.L
+    400142: UpperArm.R
+    400144: UpperLeg.L
+    400146: UpperLeg.R
+    2100000: Material.001
+    2100002: Material.004
+    2100004: Material.008
+    2100006: No Name
+    2100008: Material.007
+    2100010: Material.003
+    4300000: BODY
+    4300002: pants
+    4300004: right eye
+    4300006: right eye.001
+    4300008: right pupil
+    4300010: right pupil.002
+    4300012: shirt
+    4300014: shoes
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BODY
+    13700002: pants
+    13700004: right eye
+    13700006: right eye.001
+    13700008: right pupil
+    13700010: right pupil.002
+    13700012: shirt
+    13700014: shoes
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.45
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0045
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 93
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Armature.002
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
